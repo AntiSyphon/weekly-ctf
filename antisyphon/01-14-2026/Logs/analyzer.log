@@ -1,0 +1,53 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2025-09-01-21-45-26
+#fields	ts	cause	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	failure_reason	failure_data
+#types	time	string	string	string	string	string	addr	port	addr	port	string	string
+1756676932.894057	violation	protocol	RDP	C2UMmA2ADliuZ86kP3	-	138.197.170.92	51824	10.0.0.4	3389	Binpac exception: binpac exception: string mismatch at /tmp/zeek/src/analyzer/protocol/rdp/rdp-protocol.pac:81: \x0aexpected pattern: "Cookie: mstshash\\="\x0aactual data: "\x01"	-
+1756677156.694586	violation	protocol	RDP	CT1pC6bQzcypRZdW9	-	138.197.170.92	46352	10.0.0.4	3389	Binpac exception: binpac exception: string mismatch at /tmp/zeek/src/analyzer/protocol/rdp/rdp-protocol.pac:81: \x0aexpected pattern: "Cookie: mstshash\\="\x0aactual data: "\x01"	-
+1756677157.476584	violation	protocol	RDP	CU9K8cQrHo5C4MCH6	-	138.197.170.92	46456	10.0.0.4	3389	Binpac exception: binpac exception: out_of_bound: COTP:pdu: 2 > 0	-
+1756677507.909628	violation	protocol	RDP	CIRQi6SWwpe6KXuQj	-	178.132.218.10	54166	10.0.0.4	3389	Binpac exception: binpac exception: string mismatch at /tmp/zeek/src/analyzer/protocol/rdp/rdp-protocol.pac:81: \x0aexpected pattern: "Cookie: mstshash\\="\x0aactual data: "\x01"	-
+1756681542.128293	violation	protocol	RDP	CJTLmxdbM7JoTUHyj	-	20.165.166.86	65018	10.0.0.4	3389	Binpac exception: binpac exception: string mismatch at /tmp/zeek/src/analyzer/protocol/rdp/rdp-protocol.pac:81: \x0aexpected pattern: "Cookie: mstshash\\="\x0aactual data: ""	-
+1756684246.196205	violation	protocol	SSH	Cf09ur2PqHGMRNLfii	-	3.130.96.91	43378	10.0.0.4	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1756684246.276743	violation	protocol	HTTP	Cf09ur2PqHGMRNLfii	-	3.130.96.91	43378	10.0.0.4	22	not a http reply line	-
+1756684342.866597	violation	protocol	SSH	CCFax81l6MzqDayxa3	-	3.130.96.91	53514	10.0.0.4	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1756684342.947663	violation	protocol	SSL	CCFax81l6MzqDayxa3	-	3.130.96.91	53514	10.0.0.4	22	Invalid version late in TLS connection. Packet reported version: 21320	-
+1756684542.484792	violation	protocol	SSH	CItJgVIkQkG8xrOt3	-	3.130.96.91	41178	10.0.0.4	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1756684542.560808	violation	protocol	SSL	CItJgVIkQkG8xrOt3	-	3.130.96.91	41178	10.0.0.4	22	Invalid version late in TLS connection. Packet reported version: 21320	-
+1756684843.511107	violation	protocol	SSH	C4Ein31ck08bYZbxi6	-	45.79.128.205	42972	10.0.0.4	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1756684843.587228	violation	protocol	HTTP	C4Ein31ck08bYZbxi6	-	45.79.128.205	42972	10.0.0.4	22	not a http reply line	-
+1756684843.602407	violation	protocol	SSH	CHBJsY2g40fN1vvz02	-	45.79.128.205	42988	10.0.0.4	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1756684843.685856	violation	protocol	SSL	CHBJsY2g40fN1vvz02	-	45.79.128.205	42988	10.0.0.4	22	Invalid version late in TLS connection. Packet reported version: 21320	-
+1756684843.693395	violation	protocol	SSH	CHBJsY2g40fN1vvz02	-	45.79.128.205	42988	10.0.0.4	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1756684843.693412	violation	protocol	SSH	CHBJsY2g40fN1vvz02	-	45.79.128.205	42988	10.0.0.4	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1756688725.953057	violation	protocol	RDP	CQwW1x3R4QVjRKuU1	-	147.182.163.26	46466	10.0.0.4	3389	Binpac exception: binpac exception: string mismatch at /tmp/zeek/src/analyzer/protocol/rdp/rdp-protocol.pac:81: \x0aexpected pattern: "Cookie: mstshash\\="\x0aactual data: "\x01"	-
+1756688735.960874	violation	protocol	RDP	CHiwap1TxZ6A4QbF4i	-	147.182.163.26	56966	10.0.0.4	3389	Binpac exception: binpac exception: string mismatch at /tmp/zeek/src/analyzer/protocol/rdp/rdp-protocol.pac:81: \x0aexpected pattern: "Cookie: mstshash\\="\x0aactual data: "\x01"	-
+1756688745.962555	violation	protocol	RDP	CC1KgsZi47fbcxTVk	-	147.182.163.26	34362	10.0.0.4	3389	Binpac exception: binpac exception: string mismatch at /tmp/zeek/src/analyzer/protocol/rdp/rdp-protocol.pac:81: \x0aexpected pattern: "Cookie: mstshash\\="\x0aactual data: "\x01"	-
+1756694138.402306	violation	protocol	RDP	CU49ofM19dZ0nTo9l	-	178.16.54.101	52489	10.0.0.4	3389	Binpac exception: binpac exception: string mismatch at /tmp/zeek/src/analyzer/protocol/rdp/rdp-protocol.pac:81: \x0aexpected pattern: "Cookie: mstshash\\="\x0aactual data: "\x01"	-
+1756696055.330043	violation	protocol	SSL	CMYAWktGogdYYsUIg	-	162.210.245.77	40128	10.0.0.4	3389	Invalid version in TLS connection. Version: 0	-
+1756696905.036663	violation	protocol	SSH	CX3eV7RhtgMRufP2b	-	64.62.197.92	51806	10.0.0.4	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1756696905.204341	violation	protocol	HTTP	CX3eV7RhtgMRufP2b	-	64.62.197.92	51806	10.0.0.4	22	not a http reply line	-
+1756697416.922894	violation	protocol	DNS	CTbriS2NuCpCdeNL5f	-	10.0.0.4	53	162.142.125.250	54344	DNS_Conn_count_too_large	-
+1756703847.592590	violation	protocol	HTTP	Cex2Ao43sBRn6dcRti	-	92.118.39.237	27389	10.0.0.4	80	not a http request line	-
+1756704621.806725	violation	protocol	HTTP	C1fIoaYzqNG1zLpVl	-	92.118.39.237	4505	10.0.0.4	80	not a http request line	-
+1756704859.465009	violation	protocol	HTTP	CUWVeB2Jk2JZoAG6Tc	-	92.118.39.237	19099	10.0.0.4	80	not a http request line	-
+1756706177.500281	violation	protocol	HTTP	C8K5L317IOYpBoDL5j	-	92.118.39.237	4031	10.0.0.4	80	not a http request line	-
+1756706439.688066	violation	protocol	HTTP	CuokJv3iRk9HkPDMQ3	-	92.118.39.237	22662	10.0.0.4	80	not a http request line	-
+1756708177.459324	violation	protocol	SSH	CoYX3b3LhddNE0AnO3	-	107.170.59.228	45926	10.0.0.4	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1756708177.539703	violation	protocol	SSH	CoYX3b3LhddNE0AnO3	-	107.170.59.228	45926	10.0.0.4	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1756722147.885908	violation	protocol	RDP	CnEkd83mIkb2mzPRJ5	-	85.9.108.9	26384	10.0.0.4	3389	Binpac exception: binpac exception: string mismatch at /tmp/zeek/src/analyzer/protocol/rdp/rdp-protocol.pac:81: \x0aexpected pattern: "Cookie: mstshash\\="\x0aactual data: "\x01"	-
+1756735770.994341	violation	protocol	RDP	CequEa2DEAEYDHNyMf	-	178.132.218.10	60638	10.0.0.4	3389	Binpac exception: binpac exception: string mismatch at /tmp/zeek/src/analyzer/protocol/rdp/rdp-protocol.pac:81: \x0aexpected pattern: "Cookie: mstshash\\="\x0aactual data: "\x01"	-
+1756737404.683512	violation	protocol	RDP	C6nNFe39LH3DOFE4pc	-	70.26.238.242	51847	10.0.0.4	3389	Binpac exception: binpac exception: string mismatch at /tmp/zeek/src/analyzer/protocol/rdp/rdp-protocol.pac:81: \x0aexpected pattern: "Cookie: mstshash\\="\x0aactual data: "\x01"	-
+1756738159.853337	violation	protocol	RDP	CY8H6v1vZYm3C3AVCf	-	170.106.111.112	54356	10.0.0.4	3389	Binpac exception: binpac exception: string mismatch at /tmp/zeek/src/analyzer/protocol/rdp/rdp-protocol.pac:81: \x0aexpected pattern: "Cookie: mstshash\\="\x0aactual data: "\x01"	-
+1756740542.869061	violation	protocol	RDP	Cj3PfqwildV5M3iof	-	209.38.128.112	37518	10.0.0.4	3389	Binpac exception: binpac exception: string mismatch at /tmp/zeek/src/analyzer/protocol/rdp/rdp-protocol.pac:81: \x0aexpected pattern: "Cookie: mstshash\\="\x0aactual data: "\x01"	-
+1756740566.025745	violation	protocol	SSH	C444uB4IgIiWxeqe24	-	65.49.1.212	9318	10.0.0.4	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1756740567.661919	violation	protocol	SSL	C444uB4IgIiWxeqe24	-	65.49.1.212	9318	10.0.0.4	22	Invalid version late in TLS connection. Packet reported version: 21320	-
+1756744993.812587	violation	protocol	SSH	CMNCDT2Iwm7jKGMref	-	194.165.16.162	65164	10.0.0.4	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1756747888.678653	violation	protocol	RDP	C3TfJU2i675R7Ah3fj	-	70.26.238.242	54040	10.0.0.4	3389	Binpac exception: binpac exception: string mismatch at /tmp/zeek/src/analyzer/protocol/rdp/rdp-protocol.pac:81: \x0aexpected pattern: "Cookie: mstshash\\="\x0aactual data: "\x01"	-
+1756753117.780306	violation	protocol	RDP	CWtA4G4xIfhjfRoKV4	-	123.191.132.201	35581	10.0.0.4	3389	Binpac exception: binpac exception: string mismatch at /tmp/zeek/src/analyzer/protocol/rdp/rdp-protocol.pac:81: \x0aexpected pattern: "Cookie: mstshash\\="\x0aactual data: "\x01"	-
+1756753132.851481	violation	protocol	RDP	CPRp0k3IXYdXr8nkGa	-	111.224.219.164	33774	10.0.0.4	3389	Binpac exception: binpac exception: out_of_bound: COTP:pdu: 2 > 0	-
+1756754290.997290	violation	protocol	RDP	CZOmKq3bfpxGl0VR22	-	64.62.197.137	6850	10.0.0.4	3389	Binpac exception: binpac exception: string mismatch at /tmp/zeek/src/analyzer/protocol/rdp/rdp-protocol.pac:81: \x0aexpected pattern: "Cookie: mstshash\\="\x0aactual data: "\x01"	-
+#close	2025-09-01-21-46-20
