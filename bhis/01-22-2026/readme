@@ -1,1 +1,35 @@
+CTF Challenge: Quiet Resolution 
 
+Backdoors & Breaches Card: C2 & Exfil --- DNS as C2
+
+Resource: https://github.com/AntiSyphon/weekly-ctf/blob/main/bhis/01-22-2026/dns.zip
+ 
+Challenge Description 
+
+A Zeek DNS sensor was deployed to improve network visibility. 
+ 
+No alerts fired, but analysts suspect one internal system may be communicating with external infrastructure in a way consistent with command-and-control. 
+ 
+You are provided with a single Zeek dns.log 
+ 
+You are tasked to: 
+- Identify the internal host exhibiting suspicious behavior 
+- Identify the domain involved 
+- Determine the approximate beacon interval 
+ 
+The domain in question is used legitimately elsewhere in the environment, so reputation-based detection will not be sufficient 
+ 
+Focus on behavior, not signatures 
+
+Flag Format 
+
+MetaCTF{<host_ip>|<domain>|<interval>} 
+
+Flag Validation Rules 
+
+The interval value must be a whole number between and including 20 and 30 
+ 
+Example valid flags: 
+CTF{10.47.2.100|ise.wrccdc.org|27} 
+CTF{10.47.2.100|ise.wrccdc.org|26} 
+CTF{10.47.2.100|ise.wrccdc.org|30} 
