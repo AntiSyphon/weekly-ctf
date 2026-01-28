@@ -1,1 +1,37 @@
-text
+
+
+Setup 
+
+Prerequisites (recommended) 
+
+# Install required tools 
+sudo apt update 
+sudo apt install -y tshark wireshark 
+
+Getting Started 
+
+    Analyze the PCAP file: soc_ctf.pcap 
+
+    Find the flag! 
+
+Challenge Answers 
+
+Challenge 1: DNS Exfiltration 
+
+Scenario: Suspicious DNS queries detected from internal host, data being exfiltrated via DNS subdomains. 
+
+Solution: Extract DNS queries and decode subdomain patterns 
+
+
+Challenge 2: FTP File Retrieval 
+
+Scenario: FTP session where file flag.txt was downloaded from internal server. 
+
+Solution: Recover file from FTP data connection (port 20) and decode hex payload 
+
+
+Challenge 3: HTTP Credential Harvesting 
+
+Scenario: Suspicious HTTP traffic with credentials being submitted to web form. 
+
+Solution: Extract password from HTTP POST request body 
