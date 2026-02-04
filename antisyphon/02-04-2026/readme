@@ -1,0 +1,13 @@
+Description: 
+
+Your organization suspects unauthorized access to its Microsoft 365 tenant. 
+
+No malware. 
+No phishing alerts. 
+No user complaints. 
+
+However a sensitive email has leaked. 
+
+You are provided with several exports collected during an incident response investigation, including: exchange online mail flow rules, mailbox inbox rules, administrative audit events, role assignments, message trace data 
+
+Find the flag in the subject of the leaked email. 
