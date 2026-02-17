@@ -1,1 +1,10 @@
+Challenge Name: Modbus “Shadow Maintenance” 
+
+BnB Card Related: Network Threat Hunting 
+ 
+Challenge Description: 
+A contractor claims they only performed “device inventory.” The SOC has Zeek Modbus telemetry showing lots of “unknown” function codes and repeated transactions. The plant later finds an unauthorized logic change. 
+
+
+ 
 
