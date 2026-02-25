@@ -1,0 +1,11 @@
+Challenge Name: The Cloud Exfil That Already Happened 
+
+Challenge Description:  
+
+Security team statement: 
+
+“We blocked outbound connections, yet sensitive data still left the network. 
+We captured logs from the compromised machine. 
+Find out how the attacker exfiltrated the data and recover the flag.” 
+
+BnB Card Related: Cloud-Based Services As Exfil 
